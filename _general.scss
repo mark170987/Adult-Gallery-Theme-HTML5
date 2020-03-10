@@ -1,0 +1,26 @@
+// Declaracion de variables globales css
+$fondo: #f2f2f2;
+$color-primario: #34343c;
+$color-secundario:#4e76c9;
+$logo-word-1: #000;
+$logo-word-2: red;
+$color-titulo-video: #000;
+
+// Se aplica a todo el documento
+*{
+  padding: 0;
+  margin: 0;
+}
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+}
+.row {
+    padding: 0px;
+}

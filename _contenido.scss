@@ -1,0 +1,32 @@
+main{
+    margin-top: 10px;
+    .loop-imagenes{
+        margin-top: 10px;
+        width: 100%;
+        img{
+            width: 100%;
+            border-radius: 3px;
+            transition-property: opacity;
+            &:hover{
+                opacity: .9;
+                transition: ease-in;
+            }
+        }
+        .titulo-imagen{
+            text-align: center;
+            a{
+                font-family: 'Open Sans';
+                font-size: 1.5em;
+                display: block;
+                text-decoration: none;
+                color: #000;
+                &:hover{
+                    color: #007bff;
+                }
+            }
+        }
+    }
+}
+.contenedor{
+    max-width: 80%;
+}
