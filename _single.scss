@@ -6,17 +6,19 @@
             margin-bottom: 20px;
             border-radius: 3px;
             article{
+                text-align: justify;
                 width: 100%;
+                h1{
+                    padding-left: 25px;
+                }
                 .gallery-insert{
                     width: 100%;
+                    padding: 20px;
                     display: flex;
                     flex-wrap: wrap;
                     justify-content: space-around;
                     img{
                         padding: 5px;
-                    }
-                    a{
-                        display: block;
                     }
                 }
 

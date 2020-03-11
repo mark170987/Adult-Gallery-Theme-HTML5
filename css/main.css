@@ -180,11 +180,17 @@ main .loop-imagenes .titulo-imagen a:hover {
 }
 
 .contenedor main .contenido article {
+  text-align: justify;
   width: 100%;
+}
+
+.contenedor main .contenido article h1 {
+  padding-left: 25px;
 }
 
 .contenedor main .contenido article .gallery-insert {
   width: 100%;
+  padding: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -196,9 +202,5 @@ main .loop-imagenes .titulo-imagen a:hover {
 
 .contenedor main .contenido article .gallery-insert img {
   padding: 5px;
-}
-
-.contenedor main .contenido article .gallery-insert a {
-  display: block;
 }
 /*# sourceMappingURL=main.css.map */
