@@ -171,4 +171,34 @@ main .loop-imagenes .titulo-imagen a:hover {
 .derechos p a {
   text-decoration: none;
 }
+
+.contenedor main .contenido {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+
+.contenedor main .contenido article {
+  width: 100%;
+}
+
+.contenedor main .contenido article .gallery-insert {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contenedor main .contenido article .gallery-insert img {
+  padding: 5px;
+}
+
+.contenedor main .contenido article .gallery-insert a {
+  display: block;
+}
 /*# sourceMappingURL=main.css.map */

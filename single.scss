@@ -1,0 +1,26 @@
+.contenedor{
+    main{
+        .contenido{
+            width: 100%;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 3px;
+            article{
+                width: 100%;
+                .gallery-insert{
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    img{
+                        padding: 5px;
+                    }
+                    a{
+                        display: block;
+                    }
+                }
+
+            }
+        }
+    }
+}
